@@ -32,26 +32,39 @@
 ## 设置
 
 1. 克隆代码仓库：
+   ```
    git clone https://github.com/0xrikt/crypto-news-backend.git
    cd crypto-news-backend
+   ```
 
 2. 安装依赖：
+   ```
    npm install
+   ```
 
 3. 在根目录创建一个 `.env` 文件，内容如下：
+   ```
    MONGODB_URI=你的mongodb连接字符串
    CRYPTOCOMPARE_API_KEY=你的cryptocompare_api密钥
    ZHIPU_API_KEY=你的智谱api密钥
    PORT=3000
+   ```
 
    用你的实际凭证和所需的端口号替换占位符值。
 
 ## 运行应用程序
 
-要启动服务器：npm start
+要启动服务器：
 
-对于开发环境，文件更改时自动重启：npm run dev
+```
+npm start
+```
 
+对于开发环境，文件更改时自动重启：
+
+```
+npm run dev
+```
 
 ## API 端点
 
